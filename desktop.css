@@ -2,6 +2,9 @@
     #nav-logo{
         width: 60vw;
     }
+    #logo{
+        height: 40px;
+    }
     #nav-button-container{
         justify-content: right;
         align-items: right;

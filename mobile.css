@@ -72,8 +72,8 @@
         visibility: hidden;
     }
 
-    #pickup-section{
-        height: 500px;
+    #pickup-section,#contact-section,#location-sectio{
+        height: auto;
         background-color: rgb(250, 250, 250);
         display: flex;
         flex-direction: column;
@@ -86,5 +86,17 @@
         width: 100%;
         border-radius: 20px;
         object-fit: cover;
+    }
+
+    .map{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #loc-info{
+        width: 400px;
     }
 }

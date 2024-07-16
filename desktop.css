@@ -1,0 +1,74 @@
+@media (min-width: 600px) {
+    #nav-logo{
+        width: 60vw;
+    }
+    #nav-button-container{
+        justify-content: right;
+        align-items: right;
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 40vw;
+    }
+
+    #nav-secondary{
+        visibility: visible;
+    }
+    #nav-primary{
+        visibility: visible;
+        margin-right: 20px;
+      
+    }
+
+    #nav-primary,#nav-secondary{
+        display: inline-block;
+        width: 40%;
+        max-width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        border: 1px rgb(220, 220, 220) solid;
+        border-radius: 4px;
+        background-color: rgb(240, 240, 240);
+        color: rgb(100, 100, 100);
+    }
+
+    .marquee{
+        display: flex;
+        flex-direction: row;
+        height: 50vh;
+    } 
+
+    #marquee-img{
+        background-image: url(shopping.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #marque-img,#marquee-right{
+        height: 100%;
+    }
+
+    #img-text-over{
+        visibility: hidden;
+    }
+    #img-text{
+        visibility: visible;
+    }
+
+    #pickup-section{
+        height: 500px;
+        background-color: rgb(250, 250, 250);
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding: 40px;
+    }
+    #pickup-img{
+        height: 40vw;
+        width: 40vw;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,43 @@
+html,body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+#nav-banner{
+    height: 80px;
+    width: 100vw;
+    margin: 0;
+    padding-right: 20px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 2px 10px 4px rgba(10, 10, 10, 0.1);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h5{
+    font-weight: 400;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    padding: 4px;
+    font-size: 18px;
+    background-color: rgb(56, 141, 226);
+    color: white;
+    border-radius: 4px;
+    border: 0;
+}
+
+

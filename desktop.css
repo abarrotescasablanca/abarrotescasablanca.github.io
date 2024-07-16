@@ -67,8 +67,10 @@
         padding: 40px;
     }
     #pickup-img{
-        height: 40vw;
-        width: 40vw;
+        height: 50vw;
+        width: 50vw;
+        max-height: 350px;
         border-radius: 10px;
+        object-fit: cover;
     }
 }

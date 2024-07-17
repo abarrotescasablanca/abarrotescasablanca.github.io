@@ -73,6 +73,11 @@
         gap: 50px;
         padding: 40px;
     }
+    
+    #location-section{
+        gap:0px
+    }
+
     #pickup-img{
         height: 50vw;
         width: 50vw;
@@ -90,4 +95,5 @@
     #loc-info{
         width: 400px;
     }
+    
 }

@@ -50,7 +50,7 @@ h6{
     margin: 0px;
 }
 button{
-    width: 49%;
+    width: 48%;
     height: 50px;
     padding: 4px;
     font-size: 16px;
@@ -59,6 +59,7 @@ button{
     color: white;
     border-radius: 8px;
     border: 0;
+    display: inline-block;
 }
 #WhatsApp-button{
     width: 49%;
@@ -66,6 +67,12 @@ button{
     background-color: rgb(32, 175, 70);
     color: rgb(255, 255, 255);
     border: 0px solid rgb(222, 222, 222);
+}
+
+#llamar-ubi{
+    display: inline;
+    background-color: rgb(212, 212, 212);
+    width: 40%;
 }
 
 #locations{

@@ -95,5 +95,13 @@
     #loc-info{
         width: 400px;
     }
+
+    .socials{
+        display: flex;
+        flex-shrink: calc();
+        justify-content: left;
+        align-items: center;
+        gap: 16px;
+    }
     
 }

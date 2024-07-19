@@ -115,4 +115,12 @@
     #loc-info{
         width: 80%;
     }
+
+    .socials{
+        display: flex;
+        flex-shrink: calc();
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
 }
